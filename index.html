@@ -1,38 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--STYLE-->
-    <link rel="stylesheet" href="style.css">
-
-    <!--TAB ICON-->
-    <link rel="icon" href="../../imgs/General/icons8-earth-64.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style-globe.css">
 
     <!--LIBRARIES-->
     <script src="https://cesium.com/downloads/cesiumjs/releases/1.79.1/Build/Cesium/Cesium.js"></script>
-    <link href="https://cesium.com/downloads/cesiumjs/releases/1.79.1/Build/Cesium/Widgets/widgets.css" rel="stylesheet">
-    <script src="../libs/satellite/satellite.js"></script>
+    <link
+      href="https://cesium.com/downloads/cesiumjs/releases/1.79.1/Build/Cesium/Widgets/widgets.css"
+      rel="stylesheet"
+    />
+    <script src="libs/satellite.js"></script>
+    <script
+      src="libs/jq-3.3.1.js"
+      type="text/javascript"
+    ></script>
 
-    <title>Space Junk</title>
-</head>
+    <title>Space Debris</title>
+  </head>
+  <body>
 
-<body>
     <div id="cesiumContainer"></div>
 
-    <div class="anim">
-        <img src="Chiara-giu.jpeg" id="anim" class="anim-img">
-    </div>
-    <div class="copy">
-        <a href="https://linktr.ee/ChiaraMancarella" target="_new">Chiara Mancarella</a>
-    </div>
-
-    <!--SCRIPT-->
     <script src="script-globe.js"></script>
-    <script src="anim.js"></script>
-</body>
-
+  </body>
 </html>

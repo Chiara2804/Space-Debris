@@ -7,6 +7,8 @@
  
  This webpage was created to show some of debris in orbit.
  
+ <img src="README_img/demo.png"/> 
+ 
  ### Libraries
  <ul>
   <li><a href="https://cesium.com/platform/cesiumjs/">CesiumJS</a>
